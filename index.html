@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Personal Portfolio Webpage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+    <style>
+        body {
+            font-family: Ubuntu;
+            text-align: center;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        nav {
+            position: fixed;
+            width: 100%;
+            background-color: rgb(166, 234, 255, 0.7);
+        }
+
+        nav ul {
+            text-align: right;
+            padding: 19px;
+        }
+
+        nav ul li {
+            display: inline-block;
+            font-weight: bold;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+        }
+
+        nav ul li a:hover {
+            color: #a1e9ff;
+            background-color: white;
+            border-radius: 5px;
+        }
+
+        #welcome-section {
+            background-image: url(https://ak8.picdn.net/shutterstock/videos/23582188/thumb/8.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            top: 0;
+            min-height: 55vh;
+            padding-top: 45vh;
+        }
+
+        #welcome-section p {
+            color: rgb(0, 105, 150);
+        }
+
+
+        .h2tag {
+            margin: 25px;
+            font-size: 35px;
+        }
+
+        .card {
+            width: 20%;
+            display: inline-block;
+            box-shadow: 1px 1px 5px gray;
+            border-radius: 5px;
+            margin: 2%;
+        }
+
+        .image img {
+            width: 100%;
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+
+        }
+
+        .title {
+            margin: 12px;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+
+        h1 {
+            margin-top: 12px;
+            font-size: 35px;
+        }
+
+
+        .divlinks div {
+            width: 20%;
+            display: inline-block;
+        }
+
+        .divlinks div a {
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+        }
+
+        .contact {
+            margin: 20px;
+        }
+
+        .header {
+            margin-bottom: 50px;
+        }
+
+        .contact {
+            background-color: lightblue;
+            padding: 20px;
+        }
+
+        @media screen and (max-width: 700px) {
+            nav ul {
+                padding: 15px;
+            }
+
+            .card {
+                width: 75%;
+                display: block;
+                margin-left: 45px;
+                margin-bottom: 20px;
+            }
+
+            .divlinks div {
+                margin: 0 5px 5px 5px;
+            }
+        }
+    </style>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#welcome-section">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contactme">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="welcome-section" class="about">
+        <h1>Hey, i am Attaulla</h1>
+        <p>A Front-end Developer</p>
+    </section>
+    <section id="projects">
+        <div class="project-tile">
+            <h2 class="h2tag">Projects</h2>
+            <div class="row1">
+                <div class="card">
+                    <div class="image">
+                        <a href="https://attaulla9.github.io/weather/">
+                            <img src="https://clipground.com/images/waether-clipart-8.jpg" width="50" height="200"></a>
+                    </div>
+                    <div class="title">
+                        <h2>Weather Checker</h2>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <a href="https://attaulla9.github.io/college/">
+                            <img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/69/73/a7/colege-quad.jpg"
+                                width="50" height="200"></a>
+                    </div>
+                    <div class="title">
+                        <h2>College website</h2>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <a href="https://codepen.io/Attaulla/pen/xBQpya">
+                            <img src="https://cdn-images-1.medium.com/max/1200/1*Hf2KpcMik73zo68ToIaarQ.jpeg" width="50"
+                                height="200"></a>
+                    </div>
+                    <div class="title">
+                        <h2>Technical Doc Page</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row1">
+                <div class="card">
+                    <div class="image">
+                        <a href="https://codepen.io/Attaulla/pen/WaojyW">
+                            <img src="http://www.abdulkalam.com/kalam/theme/assets/images/press-release-abdulkalam.jpg"
+                                width="50" height="200"></a>
+                    </div>
+                    <div class="title">
+                        <h2>Tribute Page</h2>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <a href="https://codepen.io/Attaulla/pen/mzXVPV">
+                            <img src="https://discourse-user-assets.s3.amazonaws.com/original/3X/a/e/ae785e69012d59eff4916f7576637c212611159f.jpg"
+                                width="50" height="200"></a>
+                    </div>
+                    <div class="title">
+                        <h2>Survey Form</h2>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <a href="https://www.youtube.com/channel/UCRKX5TukSN2dlzm2vfmfLNA">
+                            <img src="https://www.youtube.com/yts/img/yt_1200-vfl4C3T0K.png" width="50"
+                                height="200"></a>
+                    </div>
+                    <div class="title">
+                        <h2>Tech9in (Youtube)</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="contact" id="contactme">
+            <div class="header">
+                <h2>Contact me</h2>
+            </div>
+            <div class="divlinks">
+                <div>
+                    <a id="profile-link" class="cantact_deatil" href="https://github.com/attaulla9" target="_blank"><img
+                            src="https://www.uruit.com/blog/wp-content/uploads/2017/08/github.png" 
+                            width="50" height="50">
+                        <p>GitHub</p>
+                    </a>
+                </div>
+                <div>
+                    <a class="cantact_deatil" href="https://codepen.io/Attaulla/"><img
+                            src="https://png.pngtree.com/svg/20160704/7a303ddf9d.png" width="50" height="50">
+                        <p>Codepen</p>
+                    </a>
+                </div>
+                <div>
+                    <a class="cantact_deatil" href="https://www.linkedin.com/in/attaullafaniband/"><img
+                            src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
+                            width="50" height="50">
+                        <p>Linkedin</p>
+                    </a>
+                </div>
+                <div>
+                    <a class="cantact_deatil" href="https://www.instagram.com/attaulla_p/"><img
+                            src="https://instagram-brand.com/wp-content/uploads/2016/11/Instagram_AppIcon_Aug2017.png?w=300"
+                            width="50" height="50">
+                        <p>Instagram</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
